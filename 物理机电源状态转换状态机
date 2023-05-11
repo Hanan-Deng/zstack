@@ -1,9 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T08:11:04.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="D_kIqFp4EwoLk0b57REv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T08:51:03.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Xst3NIlB6OMXWDncSdXi" version="21.2.9" type="github">
   <diagram name="Page-1" id="UL96aoOldv4XVS8bk7yc">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-90" width="640" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="640" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-3" value="开机状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-4" value="关机状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-5" value="IPMI 未纳管" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-7" target="_TQIFxtoQBpOk0XVljWt-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-7" value="开机中（中间态）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="345" y="430" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-8" value="开机" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="402.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-4" target="_TQIFxtoQBpOk0XVljWt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="560" as="sourcePoint" />
+            <mxPoint x="620" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.913;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-12" target="_TQIFxtoQBpOk0XVljWt-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-12" value="关机中（中间态）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fontSize=9;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="92.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-13" value="关机" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;dashed=1;dashPattern=1 4;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="402.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-15" value="IPMI 纳管" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="494.9999999999998" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-5" target="_TQIFxtoQBpOk0XVljWt-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-18" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-20" target="_TQIFxtoQBpOk0XVljWt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-20" value="添加物理机至云平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="157.5" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-18" target="_TQIFxtoQBpOk0XVljWt-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="140" as="sourcePoint" />
+            <mxPoint x="480" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-22" value="添加IPMI信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-23" value="未知状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="422.5" width="125" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.045;entryY=0.718;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-23" target="_TQIFxtoQBpOk0XVljWt-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.009;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_TQIFxtoQBpOk0XVljWt-23" target="_TQIFxtoQBpOk0XVljWt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268" y="449" as="sourcePoint" />
+            <mxPoint x="435" y="347" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_TQIFxtoQBpOk0XVljWt-31" value="可获取以下上电状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="210" width="65" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
